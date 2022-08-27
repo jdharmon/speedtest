@@ -15,7 +15,7 @@ on:
 
 env:
   # github.repository as <account>/<repo>
-  IMAGE_NAME: ${{ github.actor }}/${{ github.repository }}
+  IMAGE_NAME: ${{ github.repository }}
 
 
 jobs:
